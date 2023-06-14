@@ -1,0 +1,52 @@
+  @font-face {
+    font-family: 'digital-clock';
+    src: url('DIGITALDREAM.ttf');
+  }
+  
+  body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'digital-clock';
+    color: #1abc9c;
+  }  
+
+  .clock-container {
+    display: flex;
+    padding-top: 35px;    
+  }
+
+  .clock-panel {
+    display: inline-block;
+    width: 140px;    
+    font-size: 10rem;
+    text-align: center;
+    line-height: 100px;        
+  }
+
+  .clock-separator {
+    width: 20px;       
+    font-size: 10rem;
+    text-align: center;
+    line-height: 100px;
+    padding: 0 70px;
+  }
+
+  .clock-seconds {    
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 120px;
+    margin: 50px 0 0 80px;
+  }
+
+  .clock-date {    
+    color: #1abc9c;
+    display: flex;    
+    justify-content: space-between;
+    font-size: 1.5rem;      
+    padding-top: 20px;  
+    padding-right: 30px;
+  }
